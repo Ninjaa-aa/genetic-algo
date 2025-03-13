@@ -9,7 +9,7 @@ from src.utils.visualization import save_test_cases_to_csv, print_coverage_compa
 from src.runners.run_instance import run_instance
 from src.runners.run_instance4 import run_instance_4
 
-# Import instance-specific configurations
+# Import instance-specific configuration
 from src.instances.original import CATEGORIES as ORIGINAL_CATEGORIES, DEFAULT_PARAMS as ORIGINAL_PARAMS
 from src.instances.instance1 import CATEGORIES as CATEGORIES_INSTANCE_1, DEFAULT_PARAMS as INSTANCE1_PARAMS
 from src.instances.instance2 import CATEGORIES as CATEGORIES_INSTANCE_2, DEFAULT_PARAMS as INSTANCE2_PARAMS
